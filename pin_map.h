@@ -34,7 +34,7 @@
   // NOTE: All step bit and direction pins must be on the same port.
   #define STEPPING_DDR       DDRD
   #define STEPPING_PORT      PORTD
-  #define X_STEP_BIT         2  // Uno Digital Pin 2
+  #define X_STEP_BIT         2,8,9,10  // Uno Digital Pin 2
   #define Y_STEP_BIT         3  // Uno Digital Pin 3
   #define Z_STEP_BIT         4  // Uno Digital Pin 4
   #define X_DIRECTION_BIT    5  // Uno Digital Pin 5
